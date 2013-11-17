@@ -46,8 +46,8 @@ public class Cliente {
 					System.out.println("Nome removido com sucesso");
 					break;
 				case "3":
+					System.out.println("** Nomes encontrados: **");
 					for (String nome : obj.ExibeNomes()) {
-						System.out.println("** Nomes encontrados: **");
 						System.out.println("** " + nome + " **");
 					}
 					
